@@ -224,5 +224,18 @@ footer .footer-title::after{
 
 footer div.footer-copyright{
     height: 15%;
-    background-color: green;
+    background-color: #EEEEEE;
 }
+
+footer .footer-copyright .copyright{
+    padding-top: 12px;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+
+/* fin footer  */

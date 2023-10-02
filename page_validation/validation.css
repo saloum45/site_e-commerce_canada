@@ -1,0 +1,17 @@
+body{
+    background-color: #F6F6F6;
+}
+.validation{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.validation-item p{
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    margin-top: -15px;
+}
+.validation-item h4{
+    font-weight: normal;
+}

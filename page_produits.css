@@ -1,0 +1,100 @@
+body{
+    background-color: grey;
+}
+
+.cards{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1p solid red;
+}
+.cards p{
+    margin-right: 40px;
+}
+
+.cards ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.table1{
+    /* width: 30%; */
+}
+.containers img{
+    width: 80%;
+    margin-left: 30px;
+   
+   
+}
+.containers .table1{
+    background-color: white;
+    margin-top: 40px;
+    height: 350px;
+}
+
+.infoimg{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+}
+
+.infoimg h5{
+    background-color: yellow;  
+    /* margin-top: 10px; */
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.containers .infoimg span{
+    background-color: brown;
+    margin-top: 20px;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+   }
+ 
+   .containers .favori{
+    text-align: center;
+    margin-top: -20px;
+    color: brown;
+   }
+
+   .containers .icon-link{
+    background-color: #F6F6F6;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    width: 70%;
+    margin-left: 50px;
+    
+    
+   }
+   .containers .table1 h6{
+    font-size: 15px;
+   }
+
+   .containers .icon-link i{
+    margin-top: -30px;
+    color: #B2B2B2;
+    
+   }
+   .&nbsp{
+    color: #B2B2B2;
+   }
+
+   .containers .table1 h3{
+    text-align: center;
+   }

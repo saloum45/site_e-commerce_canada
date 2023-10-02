@@ -8,22 +8,81 @@
 </head>
 <body>
     <div class="validation">
-        <div class="validation-item">
-            <h4>ORDER NO</h4>
-            <p>M 2653257</p>
+        <div class="validation_head">
+            <div class="validation_head-item">
+                <h4>ORDER NO</h4>
+                <p>M 2653257</p>
+            </div>
+            <div class="validation_head-item">
+                <h4>DATE</h4>
+                <p id="validation_head_date">JUNE 15,2021</p>
+            </div>
+            <div class="validation_head-item">
+                <h4>TOTAL</h4>
+                <p>$ 170.00</p>
+            </div>
+            <div class="validation_head-item">
+                <h4>PAYMENT METHOD</h4>
+                <p>CHECK PAYMENT</p>
+            </div>
         </div>
-        <div class="validation-item">
-            <h4>DATE</h4>
-            <p id="validation_date">JUNE 15,2021</p>
-        </div>
-        <div class="validation-item">
-            <h4>TOTAL</h4>
-            <p>$ 170.00</p>
-        </div>
-        <div class="validation-item">
-            <h4>PAYMENT METHOD</h4>
-            <p>CHECK PAYMENT</p>
+        <div class="validation_content">
+            <div>
+                <h4>OUR ORDER</h4>
+                <hr>
+                <div class="validation_content_item">
+                    <p>PRODUCT</p>
+                    <p>TOTAL</p>
+                </div>
+                <div class="validation_content_item">
+                    <p>Dummy Product Name x 2</p>
+                    <p>$86.00</p>
+                </div>
+                <div class="validation_content_item">
+                    <p>Dummy Product Name x 1</p>
+                    <p>$69.00</p>
+                </div>
+                <div class="validation_content_item">
+                    <p>Cart Subtotal</p>
+                    <p>$155.00</p>
+                </div>
+                <div class="validation_content_item">
+                    <p>Shipping and Handing</p>
+                    <p>$15.00</p>
+                </div>
+                <div class="validation_content_item">
+                    <p>Vat</p>
+                    <p>$00.00</p>
+                </div>
+                <div class="validation_content_item" id="validation_content_item">
+                    <p>Order Total</p>
+                    <p>$170.00</p>
+                </div>
+            </div>
+            <div class="validation_content">
+                <div>
+                    <h4>PAYMENT METHOD</h4>
+                    <hr>
+                    <div class="validation_content_details">
+                        <details>
+                            <summary><span class="number">DIRECT BANK TRANSFER</span> <span class="arrow">&#9660;</span></summary>
+                            <p>Make your payment directly into our bank account Please use your Order ID as <br>
+                                the payment reference. Your order won't be shipped until the funds have <br>
+                                deared in our account. </p>
+                        </details>
+                        <details>
+                            <summary><span class="number">CHEQUE PAYMENT</span> <span class="arrow">&#9660;</span></summary>
+                            <p>Make your payment directly into our cheque</p>
+                        </details>
+                        <details>
+                            <summary><span class="number">PAYPAL</span> <span class="arrow">&#9660;</span></summary>
+                            <p>Make your payment directly into PAYPAL</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
 </html>

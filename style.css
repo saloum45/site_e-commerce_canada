@@ -5,7 +5,7 @@
 }
 
 header{
-    height: 100px;
+    height: 80px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.413);
 }
@@ -239,3 +239,33 @@ footer .footer-copyright .copyright{
 }
 
 /* fin footer  */
+
+/* section featured product  */
+
+.featured{
+    /* margin-top: 50px; */
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.featured .section-title{
+    text-align: center;
+}
+.featured .section-title::after{
+    content: '';
+    display: block;
+    width: 50px;
+    background-color: #C87065;
+    height: 2px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    
+}
+
+.featured .card-body .card-up span:nth-child(2){
+    font-size: 12px;
+    margin-top: 4px;
+}
+.featured .card-body .card-down{
+    color: #C87065;
+}

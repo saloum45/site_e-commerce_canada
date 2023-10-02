@@ -141,7 +141,7 @@ header .header-first i{
 footer {
     height: 400px;
     background-color: #F6F6F6;
-    margin-top: 300px;
+    margin-top: 50px;
     padding-top: 50px;
 
 }
@@ -267,5 +267,37 @@ footer .footer-copyright .copyright{
     margin-top: 4px;
 }
 .featured .card-body .card-down{
+    color: #C87065;
+}
+
+
+/* section from the blog  */
+
+.card-body .infos .infos-head{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
+.card-body .infos .infos-head span{
+    color: #C87065;
+}
+.card-body .infos .infos-head .span-number{
+    padding: 5px;
+    border: 2px #C87065 solid;
+    height: 35px;
+    font-weight: bold;
+}
+
+.card-body .infos .infos-icon{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body .infos p{
+    font-size: 12px;
+}
+.card-body .infos a{
+    text-decoration: none;
     color: #C87065;
 }

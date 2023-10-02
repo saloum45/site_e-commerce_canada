@@ -1,0 +1,149 @@
+:root {
+    --grisback : #F6F6F6;
+    --marron : #C7A065;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.clear{
+    margin-top: 40px;
+}
+.clearsmall{
+    margin-top: 20px;
+}
+.textheader{
+    text-align: center;
+}
+.textheader h2{
+font-size: 22px;
+font-weight: bold;
+}
+.textheader hr{
+    border: none;
+    background-color: #D08A82;
+    height: 4px;
+    width: 5%;
+    margin-left: 47%;
+
+}
+
+/* .textheader .tmember{
+color: var(--marron);
+width: 15%;
+font-size: 80px;
+} */
+
+ /* About */
+ .about{
+    background-color: var(--grisback);
+    padding: 0 20px;
+ }
+ /* About top */
+ .topabout{
+    background-color: white;
+    height: 390px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* border: 4px solid yellow; */
+    /* padding: 0 40px; */
+
+ }
+
+    /*  top left */
+    .topaboutleft{
+        height: 380px;
+        /* border: 2px solid red; */
+    }
+    .topaboutleft img{
+        height: 380px;
+        width: 100%;
+    }
+
+    /* top right */
+    .topaboutright{
+        /* padding-top: 25px; */
+        height: 320px;
+        /* border: 2px solid green; */
+        /* width: 60%; */
+        /* width: 100%; */
+        position: relative;
+        right: 110px;
+        top: 5px;
+        background-color: var(--grisback);
+    }
+    .topaboutright h4{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .topaboutright p{
+        font-size: 13px;
+        font-weight:400;
+    }
+/* about bottoom */
+.about .topbottomabout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 60px;
+    
+
+}
+.about .topbottomabout .girlabout1{
+/* border: 4px solid salmon; */
+background-color: white;
+/* display: flex; */
+/* justify-content: center;
+align-items: center; */
+}
+.girlabout1 .girlimage{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+.girlabout1 .girlimage img{
+    height: 120px;
+}
+.girlabout1 .girltext{
+ /* border: 2px solid green; */
+ text-align: center;
+}
+.girlabout1 .girltext h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.705);
+}
+    .girlabout1 .girltext h6{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.507);
+        font-weight: bolder;
+    }
+    .girlabout1 .girltext p{
+        font-size: 14px;
+        font-weight: lighter;
+        color: rgba(0, 0, 0, 0.342);
+    }
+.girlabout1 .girlsocial{
+/* border: 2px solid orangered; */
+padding-top: 10px;
+
+}
+#iconesocial{
+    color: gray;
+    font-size: 13px;
+}
+    .girlabout1 .girlsocial ul{
+display: flex;
+justify-content: space-evenly;
+    }
+    .girlabout1 .girlsocial li{
+
+    }
+    .girlabout1 .girlsocial a{
+
+    }

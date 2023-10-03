@@ -16,6 +16,27 @@
 .clearsmall{
     margin-top: 20px;
 }
+/* bouton scroll avec bootstrap et js */
+/* Masquer le bouton au début */
+.scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+/* Afficher le bouton après avoir fait défiler un peu la page */
+body.scrolled .scroll-button {
+    display: block;
+    opacity: 1;
+}
+#scrollBtn{
+    /* background-color: #C7A065; */
+}
+
+
+
 
 /* panier 1 */
 .panierone{
@@ -121,7 +142,16 @@ background-color: var(--grisback);
         /* justify-content: center; */
     }
     
-    .onetopquantite .quantity, .onetopclose .quantity{
+    .onetopquantite button{
+       height: 40px;
+       width: 40px;
+       background-color: var(--grisback);
+       
+       justify-content: center;
+       align-items: center;
+       margin-left: 5px;
+    }
+    .onetopclose .quantity{
        height: 40px;
        width: 40px;
        background-color: var(--grisback);
@@ -190,13 +220,28 @@ border-bottom: 2px rgb(202, 180, 180) solid;
 display: block;
 margin-top: -8px;
 }
-
-
-
-
-@media (max-width:480px) {
-
-    .custom-columns .col {
-        flex: 0 0 100%;
+.middlerighttext::after{
+content: '';
+height: 1px;
+width: 50px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
 }
+.panieronebottomtitle::after{
+content: '';
+height: 1px;
+width: 70px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
+}
+
+
+
+
+
+@media (max-width:448px) {
+    
+
 }

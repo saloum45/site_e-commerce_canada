@@ -16,9 +16,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <button class="btn btn-danger scroll-button" id="scrollBtn">
+        <i class="fa-solid fa-up-long" style="color: white;"></i>
+    </button>
     <div class="panierone">
-
         <div class="container">
             <div class="paniernav">
                     <div class="navpanier1" id="active">
@@ -45,95 +46,153 @@
                 
             </div>
             <div class="clearsmall"></div>
-            <div class="panieronetop">
-                <div class="container">
-                    <div class="row">
-                        <div class="col bg-body-secondary ontopimage">
-                            <img src="image_panier_1/panier1.png" alt="">
+            <div class="card rounded-3 mb-2">
+                <div class="panieronetop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body p-4">
+                      <div class="row d-flex justify-content-evenly align-items-center">
+                        <div class="col col-lg-2  col-xl-2 bg-body-secondary" >
+                          <img
+                            src="image_panier_1/panier1.png"class="img-fluid rounded-3" alt="Cotton T-shirt">
                         </div>
-                        <div class="col onetopcolor">
-                            <p>Color<span>Black</span> <br>
-                                Size: <span>SL</span></p>
+                        <div class="col col-lg-2  col-xl-2 onetopcolor" >
+                          <!-- <p class="lead fw-normal mb-2">Color: Black</p> -->
+                          <p><span class="text-muted">Color: Black</span> <br><span class="text-muted">Size </span></p>
                         </div>
-                        <div class="col onetopprice">
+                        <div class="col col-lg-2  col-xl-2 onetopprice " >
+                          <div class="col onetopprice">
                             <p>$56.00</p>
                         </div>
-                        <div class="col d-flex onetopquantite">
-                            <div class="quantity"><i class="fa-solid fa-minus" id="iconepanier"></i></div>
-                        <div class="quantity"> <P>02</P></div>
-                        <div class="quantity"><i class="fa-solid fa-plus" id="iconepanier"></i></div>
                         </div>
-                        <div class="col onetoppriceend">
+                        <div class="col col-lg-2   col-xl-2 d-flex onetopquantite" >
+                            
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                          <i class="fas fa-minus" id="iconepanier"></i>
+                        </button>
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                          class="form-control form-control-sm" style="width: 50px;" />
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                          <i class="fas fa-plus" id="iconepanier"></i>
+                        </button>        
+                        </div>
+                        <div class="col col-lg-2  col-xl-2 onetoppriceend " >
+                          <div class="col onetopprice">
                             <p>$112.00</p>
                         </div>
-                        <div class="col quantity onetopclose">
-                            <div class="quantity"><i class="fa-solid fa-xmark" id="iconepanier"></i></div>  
                         </div>
+                        <div class="col col-lg-2  col-xl-2  text-end onetopclose" >
+                          <!-- <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a> -->
+                          <div class="quantity"><i class="fa-solid fa-xmark" id="iconepanier"></i></div>
+                        </div>
+                      </div>
                     </div>
-                </div>    
-                <div class="clearsmall"></div>    
-                <div class="container">
-                    <div class="row">
-                        <div class="col bg-body-secondary">
-                            <img src="image_panier_1/panier2.png" alt="">
+                            
+                     </div>
+                </div>
+                        <div class="clearsmall"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body p-2">
+                      <div class="row d-flex justify-content-evenly align-items-center">
+                        <div class="col col-lg-2  col-xl-2 bg-body-secondary " >
+                          <img
+                            src="image_panier_1/panier2.png"class="img-fluid rounded-3" alt="Cotton T-shirt">
                         </div>
-                        <div class="col onetopcolor">
-                            <h6>DUMMY PRODUCT NAME</h6>
-                            <p>Color<span>Black</span> <br>
-                                Size: <span>SL</span></p>
+                        <div class="col col-lg-2  col-xl-2 onetopcolor" >
+                          <!-- <p class="lead fw-normal mb-2">Color: Black</p> -->
+                          <p><span class="text-muted">Color: Black</span> <br><span class="text-muted">Size </span></p>
                         </div>
-                        <div class="col onetopprice">
+                        <div class="col col-lg-2  col-xl-2 onetopprice " >
+                          <div class="col onetopprice">
                             <p>$56.00</p>
                         </div>
-                        <div class="col d-flex onetopquantite">
-                            <div class="quantity"><i class="fa-solid fa-minus" id="iconepanier"></i></div>
-                        <div class="quantity"> <P>02</P></div>
-                        <div class="quantity"><i class="fa-solid fa-plus" id="iconepanier"></i></div>
                         </div>
-                        <div class="col onetoppriceend">
+                        <div class="col col-lg-2   col-xl-2 d-flex onetopquantite" >
+                            
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                          <i class="fas fa-minus" id="iconepanier"></i>
+                        </button>
+                            
+                            
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                          class="form-control form-control-sm" style="width: 50px;" />
+    
+                            
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                          <i class="fas fa-plus" id="iconepanier"></i>
+                        </button>
+                            
+                        
+                        </div>
+                        <div class="col col-lg-2  col-xl-2 onetoppriceend " >
+                          <div class="col onetopprice">
                             <p>$112.00</p>
                         </div>
-                        <div class="col quantity onetopclose">
-                            <div class="quantity">
-                                <i class="fa-solid fa-xmark" id="iconepanier"></i>
+                        </div>
+                        <div class="col col-lg-2  col-xl-2  text-end onetopclose" >
+                          <div class="quantity"><i class="fa-solid fa-xmark" id="iconepanier"></i></div>
+                        </div>
+                      </div>
+                    </div>
+
                             </div>
-                           
-                           
                         </div>
-                    </div>
-                </div>    
-                <div class="clearsmall"></div>    
-                <div class="container">
-                    <div class="row">
-                        <div class="col bg-secondary-subtle">
-                            <img src="image_panier_1/panier3.png" alt="">
+                        <div class="clearsmall"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body p-2">
+                      <div class="row d-flex justify-content-evenly align-items-center">
+                        <div class="col col-lg-2  col-xl-2 bg" >
+                          <img
+                            src="image_panier_1/panier1.png"class="img-fluid rounded-3" alt="Cotton T-shirt">
                         </div>
-                        <div class="col onetopcolor">
-                            <h6>DUMMY PRODUCT NAME</h6>
-                            <p>Color<span>Black</span> <br>
-                                Size: <span>SL</span></p>
+                        <div class="col col-lg-2  col-xl-2 onetopcolor" >
+                          <!-- <p class="lead fw-normal mb-2">Color: Black</p> -->
+                          <p><span class="text-muted">Color: Black</span> <br><span class="text-muted">Size </span></p>
                         </div>
-                        <div class="col onetopprice">
+                        <div class="col col-lg-2  col-xl-2 onetopprice " >
+                          <div class="col onetopprice">
                             <p>$56.00</p>
                         </div>
-                        <div class="col d-flex onetopquantite">
-                            <div class="quantity"><i class="fa-solid fa-minus" id="iconepanier"></i></div>
-                        <div class="quantity"> <P>02</P></div>
-                        <div class="quantity"><i class="fa-solid fa-plus" id="iconepanier"></i></div>
                         </div>
-                        <div class="col onetoppriceend">
+                        <div class="col col-lg-2   col-xl-2 d-flex onetopquantite" >
+                        
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                          <i class="fas fa-minus" id="iconepanier"></i>
+                        </button>
+                            
+                                <input id="form1" min="0" name="quantity" value="2" type="number"
+                          class="form-control form-control-sm" style="width: 50px;" />
+    
+                            
+                                <button class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                          <i class="fas fa-plus" id="iconepanier"></i>
+                        </button>
+                        
+                        </div>
+                        <div class="col col-lg-2  col-xl-2 onetoppriceend " >
+                          <div class="col onetopprice">
                             <p>$112.00</p>
                         </div>
-                        <div class="col quantity onetopclose">
-                            <div class="quantity">
-                                <i class="fa-solid fa-xmark" id="iconepanier"></i>
-                            </div>
-                           
-                           
                         </div>
+                        <div class="col col-lg-2  col-xl-2  text-end onetopclose" >
+                          <!-- <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a> -->
+                          <div class="quantity"><i class="fa-solid fa-xmark" id="iconepanier"></i></div>
+                        </div>
+                      </div>
                     </div>
-                </div>    
-                 
+
+                            </div>
+                        </div>
+                    </div> 
+            </div>
             </div>
             <div class="clearsmall"></div>
             <div class="panieronemiddle">
@@ -144,8 +203,8 @@
                             <div class="panieronemiddleleft">
                                 <div class="middlelefttext">
                                     <h5>COUPON DISCOUNT</h5>
-                                    
                                 </div>
+                                 <div class="clearsmall"></div>
                                 <div class="middleleftform">
                                     <div class="container">
                                         <form action="/action">
@@ -169,8 +228,8 @@
                             <div class="panieronemiddleright">
                                 <div class="middlerighttext">
                                     <h5>PAYEMENT DETAILS</h5>
-                                    <hr>
                                 </div>
+                                <div class="clearsmall"></div>
                                 <div class="middlerighttextdetail d-flex justify-content-between" style="border-bottom: 1px solid rgba(0, 0, 0, 0.288);">
                                     <div class="detailleft">
                                        <p> Cart Subtotal</p> 
@@ -212,10 +271,10 @@
             <div class="clearsmall"></div>
             <div class="panieronebottom">
                 <div class="container">
-                    <div>
+                    <div class="panieronebottomtitle">
                         <h5>COUPON DISCOUNT</h5>
-                        <hr>
                     </div>
+                    <div class="clearsmall"></div>
                     <form action="/action" class="row">
                         <div class="col-md-4">
                             <label for="get" class="form-label"> Enter your coupon code if you have one!</label>
@@ -239,6 +298,9 @@
             </div>
         </div>
     </div>
-    <script src="scriptpanier.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

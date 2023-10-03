@@ -15,21 +15,21 @@
 
 // SCROLL BOUTTON
 // Ajouter la classe 'scrolled' au body lorsque la page est scrollée
-window.addEventListener("scroll", () => {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.body.classList.add("scrolled");
-  } else {
-      document.body.classList.remove("scrolled");
-  }
-});
+// window.addEventListener("scroll", () => {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//       document.body.classList.add("scrolled");
+//   } else {
+//       document.body.classList.remove("scrolled");
+//   }
+// });
 
-// Faire défiler la page vers le haut lorsque le bouton est cliqué
-document.getElementById("scrollBtn").addEventListener("click", () => {
-  window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-  });
-});
+// // Faire défiler la page vers le haut lorsque le bouton est cliqué
+// document.getElementById("scrollBtn").addEventListener("click", () => {
+//   window.scrollTo({
+//       top: 0,
+//       behavior: "smooth"
+//   });
+// });
     
     
     

@@ -174,7 +174,20 @@ margin: 0 auto;
 
 /***** End side-menu *****/
 
+/* l'affichage par grid ou list */
+#list-door,#grid-door{
+    cursor: pointer;
+    /* color: #C87065; */
+}
 
+
+
+.afficher{
+    display: inline-block;
+}
+.cacher{
+    display: none;
+}
 
 /***** responsive *****/
 @media screen and (max-width:767px) {

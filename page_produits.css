@@ -145,9 +145,7 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .cards ul li{
-        margin-left: 0;
-        color: red;
+    .liste{
+       margin-left: -40px;
     }
-    
 }

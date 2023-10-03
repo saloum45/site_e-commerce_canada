@@ -28,7 +28,7 @@ let list_button = document.querySelectorAll('#list-door');
 let grid_button = document.querySelectorAll('#grid-door');
 
 list_button.forEach(element => {
-
+    
     element.addEventListener('click', () => {
         items_d_grid.classList.add('d-none');
         items_d_list.classList.remove('d-none');

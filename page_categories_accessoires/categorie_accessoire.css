@@ -31,6 +31,8 @@ height: auto;
     padding: 5px;
     background-color: #e6e8e9;
 }
+
+
 /***** End bloc gauche *****/
 
 
@@ -59,6 +61,9 @@ height: auto;
     height: 20px;
 }
 
+.paginat-items{
+    width: 25%;
+}
 /***** End bloc droite *****/
 
 /* retouche footer  */
@@ -168,3 +173,27 @@ margin: 0 auto;
 }
 
 /***** End side-menu *****/
+
+
+
+/***** responsive *****/
+@media screen and (max-width:767px) {
+    .categorie .categorie-items{
+        flex-direction: column-reverse;
+    }
+    .categorie .categorie-items .items-g{
+       margin: 0 auto;
+       width: 80%;
+       gap: 20px;
+       margin-top: 20px;
+    }
+    .categorie .categorie-items .items-d{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .paginat-items{
+        width: 80%;
+    }
+}
+/***** End responsive *****/

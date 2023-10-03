@@ -574,4 +574,9 @@ footer .footer-copyright .copyright {
         width: 25%;
         font-size: 12px;
     }
+
+    /* side menu  */
+    .side-menu {
+        width: 50%;
+    }
 }

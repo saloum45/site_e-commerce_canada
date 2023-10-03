@@ -10,7 +10,7 @@ header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.413);
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     backdrop-filter: blur(50px);
 }
 
@@ -26,7 +26,7 @@ header .header-first i {
     font-size: 25px;
 }
 
-.separation{
+.separation {
     height: 50px;
     margin-bottom: 50px;
 }
@@ -381,7 +381,7 @@ footer .footer-copyright .copyright {
 
 
 /* fleche retour  */
-#back-top{
+#back-top {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -393,89 +393,127 @@ footer .footer-copyright .copyright {
     z-index: 1;
 }
 
-.back-top-okay1{
+/* .back-top-okay1 {
     opacity: 1;
-    /* color: aqua; */
+    color: aqua;
+} */
+
+/***** side-menu *****/
+#menu-door{
+    cursor: pointer;
 }
+.side-menu {
+    height: 90vh;
+    width: 20%;
+    backdrop-filter: blur(50px);
+    color: red;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 1;
+    margin-left: -400px;
+    transition: 1s ease;
+}
+
+
+.side-menu .side-links {
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50%;
+    padding-left: 30px;
+}
+.side-menu .side-links i{
+
+    color: #C87065;
+}
+
+.side-menu .side-links a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/***** End side-menu *****/
 
 /* responsive code  */
 @media screen and (max-width:767px) {
 
     /***** section-1 *****/
-    .index-sec-1{
+    .index-sec-1 {
         height: auto;
     }
+
     .sec-1-items {
         display: flex;
         flex-direction: column;
         height: auto;
     }
-    .sec-1-items .sec-1-g{
+
+    .sec-1-items .sec-1-g {
         display: flex;
         width: 100%;
     }
+
     .index-sec-1 .sec-1-items .sec-1-g {
         width: 100%;
         /* background-color: red; */
         display: flex;
         gap: 20px;
-       
+
     }
-    .index-sec-1 .sec-1-items .sec-1-g .bloc-1{
+
+    .index-sec-1 .sec-1-items .sec-1-g .bloc-1 {
         height: 200px;
-       
+
     }
-    .index-sec-1 .sec-1-items .sec-1-g .bloc-2{
+
+    .index-sec-1 .sec-1-items .sec-1-g .bloc-2 {
         height: 200px;
-       margin-bottom: 50px;
+        margin-bottom: 50px;
     }
 
 
     .index-sec-1 .sec-1-items .sec-1-d {
         width: 100%;
     }
-    
+
     .index-sec-1 .sec-1-items .sec-1-d {
         background-color: #F2F1EF;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    
+
     }
-    
+
     .index-sec-1 .sec-1-items .sec-1-d div.image,
     .index-sec-1 .sec-1-items .sec-1-d div.text {
         width: 100%;
         text-align: center;
     }
 
-    .index-sec-1 .sec-1-items .sec-1-d div.image{
+    .index-sec-1 .sec-1-items .sec-1-d div.image {
         height: 200px;
         background-color: red;
     }
-    .index-sec-1 .sec-1-items .sec-1-d div.image img{
+
+    .index-sec-1 .sec-1-items .sec-1-d div.image img {
         height: 100%;
         width: 200%;
         /* display: none; */
     }
-    .index-sec-1 .sec-1-items .sec-1-d div.text{
+
+    .index-sec-1 .sec-1-items .sec-1-d div.text {
         margin-bottom: 10px;
         padding-top: 0;
     }
 
 
-    /***** side-menu *****/
-    .side-menu{
-        height: 100vh;
-        width: 25%;
-        background-color: rgb(155, 32, 32);
-        position: absolute;
-        top: 0;
-        right: 0;
-        
-    }
-    /***** End side-menu *****/
-    
+
+
 
     /***** End section-1 *****/
 

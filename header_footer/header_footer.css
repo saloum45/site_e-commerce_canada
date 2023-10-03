@@ -11,6 +11,10 @@ header {
     height: 80px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.413);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(50px);
 }
 
 header .header-first {
@@ -25,7 +29,14 @@ header .header-first i {
     font-size: 25px;
 }
 
-.banner{
+
+
+.separation {
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.banner {
     width: 100%;
     height: 220px;
     margin-bottom: 50px;
@@ -33,27 +44,32 @@ header .header-first i {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner .banner-text{
+
+.banner .banner-text {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.banner .banner-text h2{
-   text-align: center;
-   padding-top: 60px;
-   font-size: 80px;
-   color: white;
-   font-weight: bold;
+
+.banner .banner-text h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
 }
-.banner .banner-retour{
-   color: white;
-   width: 80%;
-margin: 0 auto;
+
+.banner .banner-retour {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
 }
-.banner .banner-retour a{
-   color: white;
-   text-decoration: none;
+
+.banner .banner-retour a {
+    color: white;
+    text-decoration: none;
 }
+
 /***** End header  *****/
 
 
@@ -171,14 +187,16 @@ footer .footer-copyright .copyright {
 
 
 
-.footer-newsletter{
+.footer-newsletter {
     display: flex;
     flex-direction: column;
-    }
-    .footer-newsletter button{
+}
+
+.footer-newsletter button {
     border: none;
     padding: 5px;
     margin-top: 5px;
     width: 150px;
-    }
+}
+
 /***** End footer *****/

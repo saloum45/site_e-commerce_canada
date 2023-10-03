@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.categorie{
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+
+/***** bloc gauche *****/
+.categorie-items .items-g{
+width: 20%;
+}
+.categorie-items .items-d{
+width: 75%;
+height: auto;
+/* background-color: bisque; */
+}
+.categorie-items .items-g .rechercher{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.size span{
+    padding: 5px;
+    background-color: #e6e8e9;
+}
+/***** End bloc gauche *****/
+
+
+
+/***** bloc droite *****/
+.categorie-items .items-d .trie{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+#card{
+    height: 400px;
+}
+
+.card-status{
+    position: relative;
+    bottom: -15px;
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-status span{
+    height: 20px;
+}
+
+/***** End bloc droite *****/

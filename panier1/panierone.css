@@ -28,6 +28,7 @@ background-color: var(--grisback);
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 18px;
+        border-bottom: 2px solid white;
     }
     .paniernav .navpanier1{
         height: 50px;
@@ -35,18 +36,35 @@ background-color: var(--grisback);
         display: flex;
         justify-content: center;
         align-items: center;
-        
+    }
+    
+    .navpanier1 a{
+        text-decoration: none;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.336);
+        font-weight: bolder;
 
     }
+    .navpanier1 a:hover{
+        text-decoration: none;
+        color: white; 
+
+    }
+    #active{
+        background-color:#c7a0658c;
+        color: #F6F6F6;
+        border-radius: 5px;   
+    }
+   
     .paniernav .navpanier1:hover{
         background-color: var(--marron);
         color: #F6F6F6;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
-
     }
     .paniernav .navpanier1:focus, .paniernav .navpanier1:active{
+        outline: 2px solid #ff4500;
         background-color: var(--marron);
         border-radius: 5px;
         cursor: pointer;
@@ -58,9 +76,11 @@ background-color: var(--grisback);
         color: rgba(0, 0, 0, 0.336);
         font-weight: bolder;
        
+       
     }
     .paniernav .navpanier1 h6:hover{
         color: #ffff;
+        
     }
 
     /* panier top */
@@ -78,6 +98,7 @@ background-color: var(--grisback);
     .panieronetop .onetopcolor p, .middleleftform label{
         font-size: 14px;
         color: rgba(0, 0, 0, 0.336);
+        text-align: center;
        
         justify-content: center;
        
@@ -89,8 +110,17 @@ background-color: var(--grisback);
         color: rgba(0, 0, 0, 0.534);
         font-weight: bolder;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
     }
+    .onetopcolor h6{
+        text-align: center;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.534);
+        font-weight: bolder;
+        display: flex;
+        /* justify-content: center; */
+    }
+    
     .onetopquantite .quantity, .onetopclose .quantity{
        height: 40px;
        width: 40px;
@@ -152,8 +182,21 @@ background-color: var(--grisback);
         font-weight: bolder;
     }
     
+.middlelefttext::after{
+content: '';
+height: 1px;
+width: 50px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
+}
 
 
 
 
+@media (max-width:480px) {
 
+    .custom-columns .col {
+        flex: 0 0 100%;
+}
+}

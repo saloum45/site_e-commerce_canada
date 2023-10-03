@@ -21,25 +21,34 @@
 
         <div class="container">
             <div class="paniernav">
-                <div class="navpanier1">
-                    <H6>SHOPPING CART</H6>
-                </div>
-                <div class="navpanier1">
-                    <h6>WHISHLIST</h6>
-                </div>
-                <div class="navpanier1">
-                    <H6>CHECK OUT</H6>
-                </div>
-                <div class="navpanier1">
-                    <H6>ORDER COMPLET</H6>
-                </div>
-               
+                    <div class="navpanier1" id="active">
+                      <a href="#">SHOPPING CART</a>  
+                    </div>
+                
+                
+                    <div class="navpanier1">
+                        <a href="../panier2/paniertwo.html">
+                            WHISHLIST
+                        </a>
+                    </div>
+                
+                
+                    <div class="navpanier1">
+                        <a href="#">CHECK OUT</a> 
+                      </div>
+                
+            
+                    <div class="navpanier1">
+                        <a href="#">ORDER COMPLET</a>
+                      </div>      
+                
+                
             </div>
             <div class="clearsmall"></div>
             <div class="panieronetop">
                 <div class="container">
                     <div class="row">
-                        <div class="col bg-body-secondary">
+                        <div class="col bg-body-secondary ontopimage">
                             <img src="image_panier_1/panier1.png" alt="">
                         </div>
                         <div class="col onetopcolor">
@@ -58,7 +67,7 @@
                             <p>$112.00</p>
                         </div>
                         <div class="col quantity onetopclose">
-                            <button class="quantity supprimer"><i class="fa-solid fa-xmark" id="iconepanier"></i></button>  
+                            <div class="quantity"><i class="fa-solid fa-xmark" id="iconepanier"></i></div>  
                         </div>
                     </div>
                 </div>    
@@ -69,6 +78,7 @@
                             <img src="image_panier_1/panier2.png" alt="">
                         </div>
                         <div class="col onetopcolor">
+                            <h6>DUMMY PRODUCT NAME</h6>
                             <p>Color<span>Black</span> <br>
                                 Size: <span>SL</span></p>
                         </div>
@@ -99,6 +109,7 @@
                             <img src="image_panier_1/panier3.png" alt="">
                         </div>
                         <div class="col onetopcolor">
+                            <h6>DUMMY PRODUCT NAME</h6>
                             <p>Color<span>Black</span> <br>
                                 Size: <span>SL</span></p>
                         </div>
@@ -133,7 +144,7 @@
                             <div class="panieronemiddleleft">
                                 <div class="middlelefttext">
                                     <h5>COUPON DISCOUNT</h5>
-                                    <hr>
+                                    
                                 </div>
                                 <div class="middleleftform">
                                     <div class="container">
@@ -211,12 +222,12 @@
                         <input type="text" name="" class="form-control form-control-sm" id="get" placeholder="Contry" style="background-color: rgba(0, 0, 0, 0.055);">
                         </div>
                         <div class="col-md-4 mb-4">
-                            <label for="get" class="form-label">h</label>
-                            <input type="text"  class="form-control form-control-sm"  placeholder="Contry" style="background-color: rgba(0, 0, 0, 0.055);"> 
+                            <label for="get" class="form-label text-white">h</label>
+                            <input type="text"  class="form-control form-control-sm"  placeholder="Region/Stade" style="background-color: rgba(0, 0, 0, 0.055);"> 
                         </div>
                         <div class="col-md-4 mb-4">
-                            <label for="get" class="form-label">  ; </label>
-                            <input type="text"  class="form-control form-control-sm"  placeholder="Contry" style="background-color: rgba(0, 0, 0, 0.055);"> 
+                            <label for="get" class="form-label text-white">  ; </label>
+                            <input type="text"  class="form-control form-control-sm"  placeholder="PosteCode" style="background-color: rgba(0, 0, 0, 0.055);"> 
                         </div>
                         <div>
                             <input  type="submit" class=" btn btn-danger btn-sm form-control-sm" value="APPLY COUPON">

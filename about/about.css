@@ -48,7 +48,9 @@ font-size: 80px;
     background-color: white;
     height: 390px;
     display: grid;
+    width: 100%;
     grid-template-columns: 40% 60%;
+    /* padding-left: 80px; */
     /* border: 4px solid yellow; */
     /* padding: 0 40px; */
 
@@ -61,16 +63,13 @@ font-size: 80px;
     }
     .topaboutleft img{
         height: 380px;
-        width: 100%;
+        width: 120%;
     }
 
     /* top right */
     .topaboutright{
-        /* padding-top: 25px; */
+        width: 110%;
         height: 320px;
-        /* border: 2px solid green; */
-        /* width: 60%; */
-        /* width: 100%; */
         position: relative;
         right: 110px;
         top: 5px;
@@ -99,12 +98,14 @@ background-color: white;
 /* display: flex; */
 /* justify-content: center;
 align-items: center; */
+padding-top: 20px;
 }
 .girlabout1 .girlimage{
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     height: 140px;
+
 }
 .girlabout1 .girlimage img{
     height: 120px;
@@ -146,4 +147,146 @@ justify-content: space-evenly;
     }
     .girlabout1 .girlsocial a{
 
+    }
+
+    /* media query */
+    @media (max-width:1023px){
+        .topaboutleft{
+            height: 380px;
+            /* border: 2px solid red; */
+        }
+        .topaboutleft img{
+            height: 380px;
+            width: 100%;
+        }
+        .topaboutright h4{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .topaboutright p{
+            font-size: 12px;
+            font-weight:400;
+        }
+
+    } 
+    @media (max-width:900px){
+        .topaboutleft{
+            height: 340px;
+            /* border: 2px solid red; */
+        }
+        .topaboutleft img{
+            height: 340px;
+
+        }
+    
+        /* top right */
+        .topaboutright{
+            height: 300px;
+        }
+        .topaboutright h4{
+            font-size: 12px;
+        }
+        .topaboutright p{
+            font-size: 10px;
+        }
+        .girlabout1 .girlimage{
+            /* border: 2px solid red; */
+            height: 120px;
+        }
+        .girlabout1 .girlimage img{
+            height: 100px;
+        }
+        .girlabout1 .girltext h5{
+            font-size: 13px;
+          
+        }
+            .girlabout1 .girltext h6{
+                font-size: 10px;
+                color: rgba(0, 0, 0, 0.507);
+                font-weight: bolder;
+            }
+            .girlabout1 .girltext p{
+                font-size: 12px;
+                font-weight: lighter;
+                color: rgba(0, 0, 0, 0.342);
+            }
+
+    }
+    @media (max-width:768px){
+         .topaboutleft{
+            height: 320px;
+            /* border: 2px solid red; */
+        }
+        .topaboutleft img{
+            height: 320px;
+
+        }
+        .topaboutright{
+            height: 290px;
+            width: 110%;
+            position: relative;
+            right: 80px;
+            top: 5px;
+        }
+        .topaboutright h4{
+            font-size: 12px;
+        }
+        .topaboutright p{
+            font-size: 10px;
+        }
+        .about .topbottomabout{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 20px;
+            padding: 0 60px;  
+        }
+        .girlabout1 .girlimage{
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            height: 120px;
+        }
+        .girlabout1 .girlimage img{
+            height: 100px;
+        }
+    }
+    @media (max-width:448px){
+        .topabout{
+            background-color: white;
+            height: 800px;
+            display: grid;
+            grid-template-columns: 1fr;
+         }
+         .topaboutleft{
+            height: 240px;
+        }
+        .topaboutleft img{
+            height: 240px;
+
+        }
+         .topaboutright{
+            height: 520px;
+            position: relative;
+            width: 90%;
+            right: -19px;
+            top: -40px;
+            background-color: var(--grisback);
+        }
+        
+        .topaboutright h4{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .topaboutright p{
+            font-size: 13px;
+            font-weight:400;
+        }
+        .about .topbottomabout{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 0 60px;
+            
+        
+        }
     }

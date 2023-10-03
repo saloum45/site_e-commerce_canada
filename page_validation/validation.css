@@ -1,11 +1,58 @@
 body{
     background-color: #F6F6F6;
 }
+    /*  menu panier 1*/
+.validation_paniernav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 100px;
+    border-bottom: 3px solid white;
+}
+.validation_paniernav .validation_navpanier1{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.validation_paniernav .validation_navpanier1:hover{
+    background-color: #C7A065;
+    color: #F6F6F6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#validation_navpanier1{
+    background-color: #C7A065;
+}
+#validation_navpanier1 h6{
+    color: white;
+}
+.validation_paniernav .validation_navpanier1:focus, .validation_paniernav .validation_navpanier1:active{
+    background-color: #C7A065;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.validation_paniernav .validation_navpanier1 h6{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: bolder; 
+}
+.validation_paniernav .validation_navpanier1 h6:hover{
+    color: #ffff;
+}
+
 .validation_head{
     display: flex;
     justify-content: space-around;
     background-color: white;
     margin-bottom: 25px;
+    width: 80%;
+    margin-left: 100px;
 }
 .validation_head-item p{
     font-size: 14px;
@@ -16,29 +63,36 @@ body{
 .validation_head-item h4{
     font-weight: normal;
 }
-.validation_content hr{
-    width: 10%;
+.validation_content_hr{
+    width: 10% !important;
     margin-left: 0;
 }
 .validation_content{
     display: grid;
     grid-template-columns: auto auto;
     background-color: white;
-}
-.validation_content h4, .validation_content hr{
+    width: 80%;
     margin-left: 100px;
+}
+.validation_content hr{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.validation_content h4, .validation_content_hr{
+    margin-left: 100px !important;
 }
 .validation_content_item{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    margin-left: 70px;
 }
 #validation_content_item{
     color: #C87065;
 }
-.validation_content_item p{
-    text-align: left;
+#validation_content_itm{
+    background-color: #F6F6F6;
 }
 .validation_content summary {
     cursor: pointer;
@@ -84,4 +138,32 @@ body{
 
 .validation_content details[open] {
     background-color: #ffff;
+}
+@media screen and (width <= 900px){
+    .validation_paniernav{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .validation_head{
+        width: 80%;
+    }
+    .validation_content{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .validation_content_item{
+        width: 80%;
+    }
+    .validation_content hr{
+        width: 80%;
+    }
+    .validation_content_details{
+        margin-left: -40px;
+    }
+    .validation_content h4, .validation_content_hr{
+        margin-left: 70px !important;
+    }
+    #Validation_payment, #validation_content_hr{
+        margin-left: -15px !important;
+    }
 }

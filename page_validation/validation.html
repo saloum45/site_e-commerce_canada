@@ -8,6 +8,21 @@
 </head>
 <body>
     <div class="validation">
+        <div class="validation_paniernav">
+            <div class="validation_navpanier1">
+                <H6>SHOPPING CART</H6>
+            </div>
+            <div class="validation_navpanier1">
+                <h6>WHISHLIST</h6>
+            </div>
+            <div class="validation_navpanier1">
+                <H6>CHECK OUT</H6>
+            </div>
+            <div class="validation_navpanier1" id="validation_navpanier1">
+                <H6>ORDER COMPLET</H6>
+            </div>
+           
+        </div>
         <div class="validation_head">
             <div class="validation_head-item">
                 <h4>ORDER NO</h4>
@@ -29,8 +44,8 @@
         <div class="validation_content">
             <div>
                 <h4>OUR ORDER</h4>
-                <hr>
-                <div class="validation_content_item">
+                <hr class="validation_content_hr">
+                <div class="validation_content_item" id="validation_content_itm">
                     <p>PRODUCT</p>
                     <p>TOTAL</p>
                 </div>
@@ -38,22 +53,27 @@
                     <p>Dummy Product Name x 2</p>
                     <p>$86.00</p>
                 </div>
+                <hr>
                 <div class="validation_content_item">
                     <p>Dummy Product Name x 1</p>
                     <p>$69.00</p>
                 </div>
+                <hr>
                 <div class="validation_content_item">
                     <p>Cart Subtotal</p>
                     <p>$155.00</p>
                 </div>
+                <hr>
                 <div class="validation_content_item">
                     <p>Shipping and Handing</p>
                     <p>$15.00</p>
                 </div>
+                <hr>
                 <div class="validation_content_item">
                     <p>Vat</p>
                     <p>$00.00</p>
                 </div>
+                <hr>
                 <div class="validation_content_item" id="validation_content_item">
                     <p>Order Total</p>
                     <p>$170.00</p>
@@ -61,8 +81,8 @@
             </div>
             <div class="validation_content">
                 <div>
-                    <h4>PAYMENT METHOD</h4>
-                    <hr>
+                    <h4 id="Validation_payment">PAYMENT METHOD</h4>
+                    <hr class="validation_content_hr" id="validation_content_hr">
                     <div class="validation_content_details">
                         <details>
                             <summary><span class="number">DIRECT BANK TRANSFER</span> <span class="arrow">&#9660;</span></summary>

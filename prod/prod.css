@@ -1,0 +1,64 @@
+.categorie-items{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.categorie-items .items-d {
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+}
+.trie {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#card {
+    height: 420px;
+}
+
+.card-status {
+    position: relative;
+    bottom: -15px;
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+}
+
+.card-status span {
+    height: 20px;
+}
+
+.paginat-items {
+    width: 25%;
+}
+
+/* fleche retour  */
+#back-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    margin-right: 20px;
+    color: #C87065;
+    transition: 1s ease;
+    opacity: 0;
+    z-index: 1;
+}
+
+/* shake body image */
+.card img{
+    /* transform: scale(1.1); */
+    transition: 1s ease;
+    
+}
+/* shake body image */
+.card:hover img{
+    transform: scale(1.1);
+    
+}

@@ -181,6 +181,16 @@ margin: 0 auto;
 }
 
 
+.card-status {
+    position: relative;
+    bottom: -15px;
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+}
 /***** responsive *****/
 @media screen and (max-width:767px) {
     .categorie .categorie-items{

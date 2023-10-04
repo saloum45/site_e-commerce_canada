@@ -1,32 +1,33 @@
-body{
+body {
     background-color: #F6F6F6;
 }
 
-.cards{
+.cards {
     background-color: white;
     display: flex;
     justify-content: space-between;
     width: 73%;
     margin-left: 11%;
 }
-.cards p{
+
+.cards p {
     margin-right: 40px;
 }
 
-.cards ul{
+.cards ul {
     display: flex;
     list-style: none;
     gap: 10px;
-   
+
 }
 
-.container1{
+.container1 {
     display: flex;
     gap: 40px;
 }
 
 /* .containers corp2 */
-.containers{
+.containers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,60 +37,61 @@ body{
     margin-left: 5%;
 }
 
-.containers .table1 h5{
-   background-color: #C8A165;
-   width: 60px;
-   height: 20px;
-   text-align: center;
-   border-radius: 5px;
-   position: relative;
-   top: -45px;
+.containers .table1 h5 {
+    background-color: #C8A165;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: -45px;
 }
 
-.containers .table1 h2{
+.containers .table1 h2 {
     font-family: 'Times New Roman', Times, serif;
-   font-size: 20px;
+    font-size: 20px;
     margin-left: 80px;
     position: relative;
-   top: -45px;
-   
-}
-
-.containers .table1 .infoimg h4{
-     margin-top: -25px;
+    top: -45px;
 
 }
 
-.containers img{
+.containers .table1 .infoimg h4 {
+    margin-top: -47px;
+
+}
+
+.containers img {
     width: 80%;
     height: 50%;
     margin-left: 20px;
-    margin-top: -35px; 
+    /* margin-top: -35px; */
 }
-#image{
+
+#image {
     height: 350px;
 }
 
-#informationimage{
+#informationimage {
     margin-top: -105%;
-    
+
 }
 
-.containers .table1{
+.containers .table1 {
     background-color: white;
     margin-top: 40px;
     height: 350px;
     width: 220px;
 }
 
-.infoimg{
+.infoimg {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
-.container1 .table1 .infoimg span{
+.container1 .table1 .infoimg span {
     background-color: brown;
     margin-top: 40px;
     width: 60px;
@@ -98,17 +100,18 @@ body{
     border-radius: 5px;
     position: relative;
     top: -65px;
-   }
- /* .clear{
+}
+
+/* .clear{
     margin-top: 20px;
 } */
-   .containers .favori{
+.containers .favori {
     text-align: center;
     margin-top: 20px;
     color: brown;
-   }
+}
 
-   .containers .icon-link{
+.containers .icon-link {
     background-color: #F6F6F6;
     text-align: center;
     /* position: relative;
@@ -118,46 +121,51 @@ body{
     margin-left: 30px;
     padding-top: 10px;
     margin-top: 10px;
-   }
-   .containers .table1 h6{
-    font-size: 15px;
-   }
+}
 
-   .containers .icon-link i{
+.containers .table1 h6 {
+    font-size: 15px;
+}
+
+.containers .icon-link i {
     margin-top: -30px;
     color: #B2B2B2;
-   padding-top: 10px;
+    padding-top: 10px;
     /* display: flex; */
     justify-content: center;
-    
-   }
- 
 
-   .containers .table1 h3{
+}
+
+
+.containers .table1 h3 {
     text-align: center;
     font-size: small;
-   }
-   .table1 img{
+}
+
+.table1 img {
     width: 180px;
     height: 150px;
-    padd
 }
-   .navfin{
+
+.navfin {
     background-color: white;
     width: 85%;
     text-align: center;
-    padding:  10px;
+    padding: 10px;
 }
+
 @media screen and (max-width: 992px) {
-    .container1{
+    .container1 {
         display: flex;
         flex-direction: column;
     }
-    .cards{
+
+    .cards {
         display: flex;
         flex-direction: column;
     }
-    .liste{
-       margin-left: -40px;
+
+    .liste {
+        margin-left: -40px;
     }
 }

@@ -439,6 +439,18 @@ footer .footer-copyright .copyright {
 
 /***** End side-menu *****/
 
+
+/* shake body image */
+.card img{
+    /* transform: scale(1.1); */
+    transition: 1s ease;
+    
+}
+/* shake body image */
+.card:hover img{
+    transform: scale(1.1);
+    
+}
 /* responsive code  */
 @media screen and (max-width:767px) {
 

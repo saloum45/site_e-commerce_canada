@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      ="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <title>page produits</title>
-    <link rel="stylesheet" href="page_produits.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
-  </head>
-  <body>
-    <!-- debut page_produits -->
-    <div class="cards">
-      <div class="liste">
-        <ul>
-          <li>Categories</li>
-          <li>Price</li>
-          <li>Color</li>
-          <li>Size</li>
-        </ul>
-      </div>
-      <p>Showing 01-09 of 17 Results</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>page produits</title>
+  <link rel="stylesheet" href="page_produits.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../header_footer/header_footer.css">
+</head>
+
+<body>
+  <!-- ========== Start header ========== -->
+  <span id="retour"></span>
+  <header>
+    <div class="header-first">
+      <i class="bi bi-list" id="menu-door"></i>
+      <img src="../images/logo.png" alt="">
+      <i class="bi bi-cart-check-fill"></i>
     </div>
-    <div class="containers">
-      <div class="container1">
-        <div class="table1">
-          <div class="info">
-            <div class="infoimg">
-              <h5>New</h5>
-              <h4>$56.20</h4>
-            </div>
-            <div id="image">
-              <img src="image_pages_produits/6.jpg" alt="" />
-            </div>
-            <div id="informationimage">
+  </header>
+  <div class="separation"></div>
+  <a href="#retour" id="back-top"><i class="bi bi-arrow-up-square"></i></a>
+
+  <div class="side-menu" id="side-menu">
+    <div class="side-links">
+      <a href="../index.html"><i class="bi bi-houses"></i> Accueil</a>
+      <a href=""><i class="bi bi-gift"></i> Produit</a>
+      <a href="../page_categories_accessoires/categorie_accessoire.html"><i class="bi bi-tags-fill"></i> Catégories et
+        Accessoires</a>
+      <a href="../about/about.html"><i class="bi bi-file-earmark-person"></i> A propos</a>
+      <a href="../page_blog/blog.html"><i class="bi bi-substack"></i> Blog</a>
+      <a href=""><i class="bi bi-person-lines-fill"></i> Contact</a>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="banner-text">
+      <h2>SHOPPING CART</h2>
+      <div class="banner-retour">
+
+        <a href="../index.html">Home</a> <span>/ Shopping Cart</span>
+      </div>
+    </div>
+    <!-- <img src="https://htmldemo.net/hurst-v1/hurst/img/bg/1.jpg" alt=""> -->
+  </div>
+
+  <!-- ========== End header ========== -->
+  <!-- debut page_produits -->
+  <div class="cards">
+    <div class="liste">
+      <ul>
+        <li>Categories</li>
+        <li>Price</li>
+        <li>Color</li>
+        <li>Size</li>
+      </ul>
+    </div>
+    <p>Showing 01-09 of 17 Results</p>
+  </div>
+  <div class="containers">
+    <div class="container1">
+      <div class="table1">
+        <div class="info">
+          <div class="infoimg">
+            <h5>New</h5>
+            <h4>$56.20</h4>
+          </div>
+          <div id="image">
+            <img src="image_pages_produits/6.jpg" alt="" />
+          </div>
+          <div id="informationimage">
             <h3>DUMMY PRODUCT NAME</h3>
             <div class="favori">
               <i class="fa-solid fa-star"></i>
@@ -62,81 +89,36 @@
               <i class="bi bi-person-arms-up"></i>
             </div>
           </div>
-          </div>
-        </div>
-        <div class="table1">
-          <div class="infoimg">
-            <span>Sale</span>
-            <h4>$56.20</h4>
-          </div>
-          <img src="image_pages_produits/3.jpg" alt="" />
-
-          <h3>DUMMY PRODUCT NAME</h3>
-          <div class="favori">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-          </div>
-          <div class="icon-link">
-            <i class="fa-regular fa-heart"></i> &nbsp;|
-            <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-            <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-            <i class="bi bi-person-arms-up"></i>
-          </div>
-        </div>
-        <div class="table1">
-          <div class="infoimg">
-            <!-- <span>New</span> -->
-            <h2>$56.20</h2>
-          </div>
-          <img src="image_pages_produits/7.jpg" alt="" />
-
-          <h3>DUMMY PRODUCT NAME</h3>
-          <div class="favori">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-          </div>
-          <div class="icon-link">
-            <i class="fa-regular fa-heart"></i> &nbsp;|
-            <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-            <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-            <i class="bi bi-person-arms-up"></i>
-          </div>
-        </div>
-        <div class="table1">
-          <div class="infoimg">
-            <span>New</span>
-            <h4>$56.20</h4>
-          </div>
-          <img src="image_pages_produits/10.jpg" alt="" />
-
-          <h3>DUMMY PRODUCT NAME</h3>
-          <div class="favori">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-          </div>
-          <div class="icon-link">
-            <i class="fa-regular fa-heart"></i> &nbsp;|
-            <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-            <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-            <i class="bi bi-person-arms-up"></i>
-          </div>
         </div>
       </div>
       <div class="table1">
         <div class="infoimg">
-          <!-- <p>New</p> -->
+          <span>Sale</span>
+          <h4>$56.20</h4>
+        </div>
+        <img src="image_pages_produits/3.jpg" alt="" />
+
+        <h3>DUMMY PRODUCT NAME</h3>
+        <div class="favori">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="icon-link">
+          <i class="fa-regular fa-heart"></i> &nbsp;|
+          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+          <i class="bi bi-person-arms-up"></i>
+        </div>
+      </div>
+      <div class="table1">
+        <div class="infoimg">
+          <!-- <span>New</span> -->
           <h2>$56.20</h2>
         </div>
-        <img src="image_pages_produits/2.jpg" alt="" />
+        <img src="image_pages_produits/7.jpg" alt="" />
 
         <h3>DUMMY PRODUCT NAME</h3>
         <div class="favori">
@@ -155,10 +137,10 @@
       </div>
       <div class="table1">
         <div class="infoimg">
-          <h5>New</h5>
+          <span>New</span>
           <h4>$56.20</h4>
         </div>
-        <img src="image_pages_produits/1.jpg" alt="" />
+        <img src="image_pages_produits/10.jpg" alt="" />
 
         <h3>DUMMY PRODUCT NAME</h3>
         <div class="favori">
@@ -175,146 +157,264 @@
           <i class="bi bi-person-arms-up"></i>
         </div>
       </div>
-
-      <div class="table1">
-        <div class="infoimg">
-          <h5>Sale</h5>
-          <h4>$56.20</h4>
-        </div>
-        <img src="image_pages_produits/8.jpg" alt="" />
-
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <!-- <p>New</p> -->
+        <h2>$56.20</h2>
       </div>
-      <div class="table1">
-        <div class="infoimg">
-          <!-- <h5>New</h5> -->
-          <h2>$56.20</h2>
-        </div>
-        <img src="image_pages_produits/11.jpg" alt="" />
+      <img src="image_pages_produits/2.jpg" alt="" />
 
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
       </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <h5>New</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/1.jpg" alt="" />
 
-      <div class="table1">
-        <div class="infoimg">
-          <h5>New</h5>
-          <h4>$56.20</h4>
-        </div>
-        <img src="image_pages_produits/12.jpg" alt="" />
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
       </div>
-      <div class="table1">
-        <div class="infoimg">
-          <h5>Sale</h5>
-          <h4>$56.20</h4>
-        </div>
-        <img src="image_pages_produits/12.jpg" alt="" />
-
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
-      </div>
-      <div class="table1">
-        <div class="infoimg">
-          <h5>New</h5>
-          <h4>$56.20</h4>
-        </div>
-        <img src="image_pages_produits/12.jpg" alt="" />
-
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
-      </div>
-      <div class="table1">
-        <div class="infoimg">
-          <h5>New</h5>
-          <h4>$56.20</h4>
-        </div>
-        <img src="image_pages_produits/12.jpg" alt="" />
-
-        <h3>DUMMY PRODUCT NAME</h3>
-        <div class="favori">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-          <i class="fa-regular fa-star-half-stroke"></i>
-        </div>
-        <div class="icon-link">
-          <i class="fa-regular fa-heart"></i> &nbsp;|
-          <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
-          <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
-          <i class="bi bi-person-arms-up"></i>
-        </div>
-      </div>
-      <div class="navfin">
-        <i class="bi bi-arrow-left-short"></i> 01 02 03 04 05
-        <i class="bi bi-arrow-right-short"></i>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
       </div>
     </div>
 
-    <!-- fin page_produits -->
-  </body>
-  <script src="interact.js"></script>
+    <div class="table1">
+      <div class="infoimg">
+        <h5>Sale</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/8.jpg" alt="" />
+
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <!-- <h5>New</h5> -->
+        <h2>$56.20</h2>
+      </div>
+      <img src="image_pages_produits/11.jpg" alt="" />
+
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+
+    <div class="table1">
+      <div class="infoimg">
+        <h5>New</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/12.jpg" alt="" />
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <h5>Sale</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/12.jpg" alt="" />
+
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <h5>New</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/12.jpg" alt="" />
+
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="table1">
+      <div class="infoimg">
+        <h5>New</h5>
+        <h4>$56.20</h4>
+      </div>
+      <img src="image_pages_produits/12.jpg" alt="" />
+
+      <h3>DUMMY PRODUCT NAME</h3>
+      <div class="favori">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star-half-stroke"></i>
+      </div>
+      <div class="icon-link">
+        <i class="fa-regular fa-heart"></i> &nbsp;|
+        <i class="fa-solid fa-magnifying-glass"></i> &nbsp;|
+        <i class="fa-solid fa-arrows-rotate"></i> &nbsp;|
+        <i class="bi bi-person-arms-up"></i>
+      </div>
+    </div>
+    <div class="navfin">
+      <i class="bi bi-arrow-left-short"></i> 01 02 03 04 05
+      <i class="bi bi-arrow-right-short"></i>
+    </div>
+  </div>
+  <!-- ========== Start footer ========== -->
+  <footer>
+    <div class="footer-infos">
+      <div class="footer-items">
+        <div class="footer-item">
+          <div class="footer-title">
+            <span>CONTACT US</span>
+          </div>
+          <div class="contact-item">
+            <span>Address:</span>
+            <p>28 Green Tower, Street Name,
+              New York City, USA</p>
+          </div>
+          <div class="contact-item">
+            <span>Cell-Phone:</span>
+            <p>012345 - 123456789</p>
+          </div>
+          <div class="contact-item">
+            <span>Email:</span>
+            <p>your-email@gmail.com</p>
+          </div>
+
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">
+            <span>ACCOUNTS</span>
+          </div>
+          <a href=""><i class="bi bi-record-circle"></i> My Account</a>
+          <a href=""><i class="bi bi-record-circle"></i> My Website</a>
+          <a href=""><i class="bi bi-record-circle"></i> My Cart</a>
+          <a href=""><i class="bi bi-record-circle"></i> Sing in</a>
+          <a href=""><i class="bi bi-record-circle"></i> Check Out</a>
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">
+            <span>SHIPPING</span>
+          </div>
+          <a href=""><i class="bi bi-record-circle"></i> My Account</a>
+          <a href=""><i class="bi bi-record-circle"></i> My Website</a>
+          <a href=""><i class="bi bi-record-circle"></i> My Cart</a>
+          <a href=""><i class="bi bi-record-circle"></i> Sing in</a>
+          <a href=""><i class="bi bi-record-circle"></i> Check Out</a>
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">
+            <span>EMAIL NEWSLETTER</span>
+          </div>
+          <div class="footer-newsletter">
+
+            <input type="text" placeholder="Email Address">
+
+
+            <button>SUBSCRIBRE</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright">
+      <div class="copyright">
+        <p>© CodeCarnival 2022. All Rights Reserved.</p>
+        <div>
+          <img src="../images/payment/1.png" alt="">
+          <img src="../images/payment/2.png" alt="">
+          <img src="../images/payment/3.png" alt="">
+          <img src="../images/payment/4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ========== End footer ========== -->
+  <!-- fin page_produits -->
+</body>
+<script src="../interact.js"></script>
+
 </html>

@@ -1,0 +1,272 @@
+:root {
+    --grisback : #F6F6F6;
+    --marron : #C7A065;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.clear{
+    margin-top: 40px;
+}
+.clearsmall{
+    margin-top: 25px;
+}
+/* bouton scroll avec bootstrap et js */
+/* Masquer le bouton au début */
+.scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+/* Afficher le bouton après avoir fait défiler un peu la page */
+body.scrolled .scroll-button {
+    display: block;
+    opacity: 1;
+}
+#scrollBtn{
+    /* background-color: #C7A065; */
+}
+/* menu */
+
+
+
+/* panier 1 */
+.panier{
+    background-color: var(--grisback);
+}
+.panierone{
+background-color: var(--grisback);
+
+}
+
+    /*  menu panier 1*/
+    .paniernav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 18px;
+        border-bottom: 2px solid white;
+    }
+    .paniernav .navpanier1{
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navpanier1 a{
+        text-decoration: none;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.336);
+        font-weight: bolder;
+
+    }
+    .navpanier1 a:hover{
+        text-decoration: none;
+        color: white; 
+
+    }
+    #active{
+        background-color:#c7a0658c;
+        color: #F6F6F6;
+        border-radius: 5px;   
+    }
+   
+    .paniernav .navpanier1:hover{
+        background-color: var(--marron);
+        color: #F6F6F6;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .paniernav .navpanier1:focus, .paniernav .navpanier1:active{
+        outline: 2px solid #ff4500;
+        background-color: var(--marron);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+    }
+    .paniernav .navpanier1 h6{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.336);
+        font-weight: bolder;
+       
+       
+    }
+    .paniernav .navpanier1 h6:hover{
+        color: #ffff;
+        
+    }
+
+    /* panier top */
+    .panieronetop{
+        background-color: white;
+        padding: 20px 20px;
+    }
+    
+   
+        .panieronetop img{
+            height: 70px;
+            width: 80%;
+        }
+   
+    .panieronetop .onetopcolor p, .middleleftform label{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.336);
+        text-align: center;
+       
+        justify-content: center;
+       
+    }
+    
+    .panieronetop .onetopprice{
+        height: 80px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.534);
+        font-weight: bolder;
+        display: flex;
+        /* justify-content: center; */
+    }
+    .onetopcolor h6{
+        text-align: center;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.534);
+        font-weight: bolder;
+        display: flex;
+        /* justify-content: center; */
+    }
+    
+    .onetopquantite button{
+       height: 40px;
+       width: 40px;
+       background-color: var(--grisback);
+       
+       justify-content: center;
+       align-items: center;
+       margin-left: 5px;
+    }
+    .onetopclose .quantity{
+       height: 40px;
+       width: 40px;
+       background-color: var(--grisback);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 5px;
+    }
+    .quantity p{
+        font-size: 13px;
+    }
+    #iconepanier{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.479);
+    }
+    .panieronetop .onetoppriceend{
+        
+        height: 80px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.712);
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    /* panier middle */
+    .panieronebottom{
+        background-color: #ffff;
+        padding: 20px 30px;
+        height: 240px;
+        
+       
+        
+    }
+    .panieronemiddle .panieronemiddleleft, .panieronemiddle .panieronemiddleright{
+        background-color: #ffff;
+        height: 240px;
+        padding: 20px 10px;
+    }
+    .panieronemiddle h5, .panieronebottom h5{
+        font-size: 14px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.705);
+        
+    }
+    .panieronemiddle hr, .panieronebottom hr{
+        border: none;
+        background-color: gray;
+        height: 2px;
+        width: 10%;
+    }
+        /* bottom */
+
+    .detailleft p, .detailright p{
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.534);
+        font-weight: bolder;
+    }
+    
+.middlelefttext::after{
+content: '';
+height: 1px;
+width: 50px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
+}
+.middlerighttext::after{
+content: '';
+height: 1px;
+width: 50px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
+}
+.panieronebottomtitle::after{
+content: '';
+height: 1px;
+width: 70px;
+border-bottom: 2px rgb(202, 180, 180) solid;
+display: block;
+margin-top: -8px;
+}
+
+
+
+
+
+@media (max-width:448px) {
+    .panieronetop img{
+        height: 300px;
+    }    
+    .panieronetop .text-muted{
+        text-align: left;
+    }
+    .panieronetop .fw-semibold{
+        text-align: left;
+    }
+   .panieronetop .d-flex{
+    justify-content: center;
+
+   }
+   .navpanier1 a{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: bolder;
+
+}
+.paniertitle h6{
+    font-size: 10px;
+}
+
+}

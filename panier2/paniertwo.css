@@ -1,0 +1,117 @@
+:root {
+    --grisback : #F6F6F6;
+    --marron : #C7A065;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.clear{
+    margin-top: 40px;
+}
+.clearsmall{
+    margin-top: 20px;
+}
+.paniertwo{
+    background-color: var(--grisback);
+    
+    }
+    
+
+
+ /*  menu panier 1*/
+ .paniernav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+}
+.paniernav .navpanier1{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.paniernav .navpanier1:hover{
+    background-color: var(--marron);
+    color: #F6F6F6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.paniernav .navpanier1:focus, .paniernav .navpanier1:active{
+    background-color: var(--marron);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.paniernav .navpanier1 h6{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: bolder;
+   
+}
+.paniernav .navpanier1 h6:hover{
+    color: #ffff;
+}
+
+.paniertwo{
+    background-color: white;
+    padding: 20px 20px;
+}
+
+
+    .paniertwo img{
+        height: 70px;
+        width: 80%;
+    }
+
+.paniertwo .onetopcolor p, .middleleftform label{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.336);
+   
+    justify-content: center;
+   
+}
+
+.paniertwo .onetopprice{
+    height: 80px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.onetopquantite .quantity, .onetopclose .quantity{
+   height: 40px;
+   width: 40px;
+   background-color: var(--grisback);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5px;
+}
+.quantity p{
+    font-size: 13px;
+}
+#iconepanier{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.479);
+}
+.panieronetop .onetoppriceend{
+    
+    height: 80px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}

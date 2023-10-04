@@ -245,6 +245,23 @@ footer .footer-copyright .copyright {
 /***** End side-menu *****/
 
 
+/* fleche retour  */
+#back-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    margin-right: 20px;
+    color: #C87065;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.back-top-okay1{
+    opacity: 1;
+    /* color: aqua; */
+}
+
 /* responsive menu  */
 @media screen and (max-width:767px){
     /* side menu  */
@@ -308,5 +325,12 @@ footer .footer-copyright .copyright {
     .index-newsletter button {
         width: 25%;
         font-size: 12px;
+    }
+
+    .banner .banner-text h2{
+        font-size: 40px;
+    }
+    .banner .banner-retour{
+        margin-top: 60px;
     }
 }

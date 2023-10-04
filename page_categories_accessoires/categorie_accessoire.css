@@ -181,14 +181,6 @@ margin: 0 auto;
 }
 
 
-
-.afficher{
-    display: inline-block;
-}
-.cacher{
-    display: none;
-}
-
 /***** responsive *****/
 @media screen and (max-width:767px) {
     .categorie .categorie-items{
@@ -211,6 +203,13 @@ margin: 0 auto;
 
     .trie span{
         font-size: 14px;
+    }
+
+    .banner .banner-text h2{
+        font-size: 40px;
+    }
+    .banner .banner-retour{
+        margin-top: 60px;
     }
 }
 

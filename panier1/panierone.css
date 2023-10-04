@@ -14,7 +14,7 @@
     margin-top: 40px;
 }
 .clearsmall{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 /* bouton scroll avec bootstrap et js */
 /* Masquer le bouton au début */
@@ -34,11 +34,14 @@ body.scrolled .scroll-button {
 #scrollBtn{
     /* background-color: #C7A065; */
 }
-
+/* menu */
 
 
 
 /* panier 1 */
+.panier{
+    background-color: var(--grisback);
+}
 .panierone{
 background-color: var(--grisback);
 
@@ -242,6 +245,18 @@ margin-top: -8px;
 
 
 @media (max-width:448px) {
-    
+    .panieronetop img{
+        height: 300px;
+    }    
+    .panieronetop .text-muted{
+        text-align: left;
+    }
+    .panieronetop .fw-semibold{
+        text-align: left;
+    }
+   .panieronetop .d-flex{
+    justify-content: center;
+
+   }
 
 }

@@ -74,11 +74,14 @@
 }
 
 
-.form-title1 h3 hr {
+.form-title1 h6 hr {
     /* padding-left: -10px; */
     padding-top: -300px;
     width: 10%;
     border-bottom: 3px solid grey;
+}
+#payment-title {
+    font-size: 12px;
 }
  
 
@@ -104,32 +107,72 @@
 
   }
  
-  .validation_content_item{
+  .payment-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    height: 35px;
+    height: 15px;
    
 }
-#validation_content_item{
+
+.payment-items hr{
+    width: 15% !important;
+    margin-left: 0;
+
+}
+#payment-items{
     color: #C87065;
 }
-#validation_content_itm{
+#payment-content-item{
     background-color: #F6F6F6;
 }
+.payment-items{
+    padding: 10px;
+}
 
-  .mybutton-bottom {
+.payment-items p{
+font-size: 10px;
+margin-bottom: 15px;
+padding: 5px;
+}
+#flush-collapseOne,#flush-collapseTwo,#flush-collapseThree {
+    font-size: 12px;
+}
+.accordion-item h3 button{
+    font-size: 10px!important;
+    background-color: #F6F6F6;
+    padding: 5px;
+}
+.accordion-button {
+    font-size: 10px;
+    background-color: red;
+}
+/* .payment-accordion-header:valid {
+    font-size: 13px;
+} */
+
+
+.mybutton-bottom {
     margin-top: 50px;
   }
   @media screen and (width<=900px) {
- .validation_content_item {
+ .payment-items {
     width: 90%;
  }
  /* #paiement_tittle h3{
     font-size: 10px;
  } */
 
+  }
+
+  @media screen and (min-width: 448px) {
+    .navpanier1 a {
+        font-size: 10px;
+    }
+    .fs-6 {
+        font-size: 1px;
+    }
   }
 
   

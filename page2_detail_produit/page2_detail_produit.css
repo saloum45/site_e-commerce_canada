@@ -1,0 +1,252 @@
+body {
+  background-color: grey;
+}
+
+.corpcontain {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 60%;
+  height: 40%;
+}
+
+.corpcontain .icon {
+  background-color: #f3f2f0;
+}
+.paginattionicon {
+  display: flex;
+  gap: 10px;
+}
+
+#iconh5 {
+  display: flex;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.iconpagi {
+  background-color: #f3f2f0;
+}
+
+.imgchevron {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.imgchevron img {
+  width: 10%;
+  margin-top: 30px;
+  margin-right: 5px;
+  padding-left: 15px;
+}
+.imgchevron i {
+  background-color: #f3f2f0;
+  padding: 27px 5px;
+  position: relative;
+  top: -29px;
+}
+
+.produit img {
+  border-bottom-right-radius: 30%;
+  margin-left: 40px;
+}
+
+/* section color */
+
+.icon-color {
+  display: flex;
+}
+.icon-color div {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+/* .cardsmiddle {
+ position: relative;
+ bottom: 40px;
+} */
+#cardsmiddle2 img {
+  /* background-color: white; */
+  width: 80px;
+}
+
+#cardsmiddle1 {
+  background-color: white;
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
+}
+#cardsmiddle1 ul li {
+  list-style: none;
+}
+/* #cardsmiddle1 ul span{
+  margin-left: 10px;
+} */
+#cardsmiddle1 p,
+#cardsmiddle2 p {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+#cardsmiddle2 {
+  background-color: white;
+  /* display: flex; */
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
+}
+#cardsmiddle3 {
+  background-color: white;
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
+}
+.containerimage {
+  display: flex;
+  padding-left: 20px;
+}
+.cardsmiddleinfo {
+  padding-left: 20px;
+  margin-top: -25px;
+}
+.paradescription,
+.parainformation,
+.paratag {
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+#cardsmiddleimageinfo {
+  display: flex;
+}
+.cardsmiddleimageinfo{
+    padding-left: 50px;
+}
+
+
+.icon-link {
+  color: #af3524;
+}
+
+.reviewspan {
+  background-color: #c8a165;
+  width: 200px;
+  padding: 10px;
+  margin-top: -10px;
+  color: white;
+  margin-left: 20px;
+}
+#lastcontaininfo{
+margin-left: 5px;
+position: relative;
+left: 15px;
+}
+
+.lastcontain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20%;
+  position: relative;
+  top: -580px;
+  left: 100px;
+}
+.costreview {
+  background-color: white;
+  width: 53%;
+  margin-right: 180px;
+  position: relative;
+  bottom: 10px;
+  padding-left: 20px;
+}
+
+.costreview .cardsmiddleinfo {
+  margin-top: -25px;
+  line-height: 20px;
+}
+.costreview .cardsmiddleinfo h4 {
+  /* margin-top: -35px; */
+  /* line-height: 20px; */
+
+  height: 5px;
+
+  padding: 0;
+}
+
+.costreview .cardsmiddleinfo p {
+    /* height: 20px; */
+    padding: 0;
+    /* background-color: blue; */
+}
+/* .cardsmiddleinfo small{
+    background-color: black;
+    margin-top: -100px !important;
+} */
+#cardsmiddleimagedeastou img{
+    height: 250px;
+}
+
+.costreview hr{
+    width: 5%;
+    margin-left: 0;
+}
+.form{
+    margin-top: 20px;
+}
+
+.form input{
+    width: 200px;
+    height: 25px;
+    background-color: #F6F6F6;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+#textarea{
+    background-color: #F6F6F6;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+#form button{
+    background-color: #af3524;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .cardcontainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      /* text-align: center; */
+  }
+  .corpcontain{
+    display: flex;
+      flex-direction: column;
+      /* text-align: center; */
+      width: 100%;
+  }
+.lastcontain{
+  display: flex;
+  flex-direction: column;
+  margin-top: 500px;
+  width: 100%;
+}
+.costreview{
+  width: 100%;
+}
+
+  
+}

@@ -24,7 +24,7 @@ body {
 }
 .cardcontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .iconpagi {
@@ -66,9 +66,10 @@ body {
   padding-top: 20px;
   margin-left: 20px;
 }
-.cardsmiddle {
-  display: block;
-}
+/* .cardsmiddle {
+ position: relative;
+ bottom: 40px;
+} */
 #cardsmiddle2 img {
   /* background-color: white; */
   width: 80px;
@@ -76,6 +77,9 @@ body {
 
 #cardsmiddle1 {
   background-color: white;
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
 }
 #cardsmiddle1 ul li {
   list-style: none;
@@ -91,9 +95,15 @@ body {
 #cardsmiddle2 {
   background-color: white;
   /* display: flex; */
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
 }
 #cardsmiddle3 {
   background-color: white;
+  position: relative;
+  bottom: 16.4px;
+  left: 20px;
 }
 .containerimage {
   display: flex;
@@ -120,6 +130,7 @@ body {
     padding-left: 50px;
 }
 
+
 .icon-link {
   color: #af3524;
 }
@@ -132,19 +143,27 @@ body {
   color: white;
   margin-left: 20px;
 }
+#lastcontaininfo{
+margin-left: 5px;
+position: relative;
+left: 15px;
+}
 
 .lastcontain {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-right: 20%;
   position: relative;
-  top: -450px;
+  top: -580px;
+  left: 100px;
 }
 .costreview {
   background-color: white;
-  width: 50%;
+  width: 53%;
   margin-right: 180px;
-  padding-left: 10px;
+  position: relative;
+  bottom: 10px;
+  padding-left: 20px;
 }
 
 .costreview .cardsmiddleinfo {

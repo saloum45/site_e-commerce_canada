@@ -80,6 +80,9 @@ body {
 #cardsmiddle1 ul li {
   list-style: none;
 }
+/* #cardsmiddle1 ul span{
+  margin-left: 10px;
+} */
 #cardsmiddle1 p,
 #cardsmiddle2 p {
   margin-left: 10px;
@@ -141,7 +144,7 @@ body {
   background-color: white;
   width: 50%;
   margin-right: 180px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .costreview .cardsmiddleinfo {
@@ -179,7 +182,7 @@ body {
 }
 
 .form input{
-    width: 280px;
+    width: 200px;
     height: 25px;
     background-color: #F6F6F6;
     border: none;
@@ -191,6 +194,7 @@ body {
     border: none;
     margin-bottom: 10px;
     padding-left: 20px;
+    
 }
 #form button{
     background-color: #af3524;
@@ -199,4 +203,31 @@ body {
     margin-bottom: 20px;
     width: 200px;
     height: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .cardcontainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      /* text-align: center; */
+  }
+  .corpcontain{
+    display: flex;
+      flex-direction: column;
+      /* text-align: center; */
+      width: 100%;
+  }
+.lastcontain{
+  display: flex;
+  flex-direction: column;
+  margin-top: 500px;
+  width: 100%;
+}
+.costreview{
+  width: 100%;
+}
+
+  
 }

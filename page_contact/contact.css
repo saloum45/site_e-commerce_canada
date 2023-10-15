@@ -52,15 +52,7 @@
     /* margin-right: 20px; */
     /* padding-right: 1px; */
 }
-.para-content .para1 {
-  
-   /* margin: 5px; */
-   /* padding: 10px; */
- /* padding-left: 100px; */
- /* background-color: blue; */
-   /* text-align: center;
-    */
-}
+
 .info-contact span {
  
     margin-left:40px;
@@ -83,9 +75,7 @@
    padding-left: -10px;
    width: 20%;
 }
-  .input-contact{
 
- }
  .input-contact input {
     padding:10px;
     margin: 5px;
@@ -131,3 +121,71 @@ margin-left: 5px;
     height:400px!important;
 }
     
+/* responsive with  css media query  */
+@media screen and (width<=900px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+       width: 90%;
+       height: auto;
+    }
+    .input-contact input {
+        padding:10px;
+        margin: 5px;
+        width: 300px;
+        background-color:  #F6F6F6;
+        border: none;
+        
+     }
+     .textarea-content  textarea{
+        content: "Your message here";
+        padding:2px;
+        margin: 5px;
+        width: 320px;
+        background-color:  #F6F6F6;
+        border: none;
+        
+     }
+     .btn-submit button {
+        background-color: #C87065;
+        color: white;
+        text-align: center;
+        padding: 8px;
+        width: 200px;
+        border: none;
+        margin-left: 5px;
+         }
+
+     }
+
+     
+     @media screen and (width<=448px) {
+   
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+           width: 100%;
+           height: auto;
+           /* background-color: red; */
+
+     }
+     
+     /* .mapouter{
+        position:relative;
+        text-align:right;
+        width:300px;
+        height:auto;
+    }
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        width:300px;
+        height:auto;
+    }
+    .gmap_iframe {
+        width:300px!important;
+        height:auto!important;
+    }  */
+   
+    } 
+      

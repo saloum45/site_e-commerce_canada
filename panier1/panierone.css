@@ -277,7 +277,7 @@ margin-top: -8px;
     height: 50px;
 }    
 .batan{
- border: 1px solid red;
+ /* border: 1px solid red; */
 
 }
 .fa-plus, .fa-minus {
@@ -294,12 +294,12 @@ margin-top: -8px;
     font-size: 13px;
 }
 #plus{
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     height: 30px;
     width: 60px;
 }
 #plusmoin{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 30px;
     width: 60px;
 }

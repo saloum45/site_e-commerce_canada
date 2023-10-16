@@ -108,6 +108,28 @@ background-color: var(--grisback);
     }
 
     /* panier top */
+
+    .muted p{
+        font-size: 12px;
+    } 
+    #plus{
+        width: 50px; 
+        height: 35px;
+    }
+    
+    #plusmoin{
+        width: 50px; 
+        height: 35px;
+    }
+    #form1{
+        width: 50px; 
+        height: 35px;
+    }
+    .conepanier{
+        width: 50px; 
+        height: 35px; 
+    }
+    
     .panieronetop{
         background-color: white;
         padding: 20px 20px;
@@ -167,7 +189,7 @@ background-color: var(--grisback);
         font-size: 13px;
     }
     #iconepanier{
-        font-size: 12px;
+        font-size: 1px;
         color: rgba(0, 0, 0, 0.479);
     }
     .panieronetop .onetoppriceend{
@@ -239,13 +261,79 @@ border-bottom: 2px rgb(202, 180, 180) solid;
 display: block;
 margin-top: -8px;
 }
+@media (max-width:768px){
+    .paniernav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:700px){
+   .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+   }
+   .panieronetop img{
+    height: 50px;
+}    
+.batan{
+ border: 1px solid red;
+
+}
+.fa-plus, .fa-minus {
+    font-size: 12px;
+}
+.muted p{
+    font-size: 9px;
+}
+.dollard{ font-size: 12px;}
+.boutton{
+    border: 1px solid;
+}
+.fa-solid{
+    font-size: 13px;
+}
+#plus{
+    border: 1px solid gold;
+    height: 30px;
+    width: 60px;
+}
+#plusmoin{
+    border: 1px solid red;
+    height: 30px;
+    width: 60px;
+}
+#form1{
+    width: 30px; 
+    height: 25px;
+}
+
+.conepanier{
+    width: 100%; 
+    height: 25px; 
+}
+
+}
 
 
 
 
 
 @media (max-width:448px) {
-    .panieronetop img{
+    .paniernav{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        border-bottom: 2px solid white;
+    }
+    .paniernav .navpanier1{
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .panieronetop img{
         height: 300px;
     }    
     .panieronetop .text-muted{
@@ -257,7 +345,7 @@ margin-top: -8px;
    .panieronetop .d-flex{
     justify-content: center;
 
-   }
+   } */
    .navpanier1 a{
     text-decoration: none;
     font-size: 10px;
